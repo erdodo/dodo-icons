@@ -1,0 +1,14 @@
+{
+  "name": "dodo-icons",
+  "version": "0.0.3",
+  "description": "Dodo ikonlar",
+  "main": "icons/index.js",
+  "scripts": {
+    "publish": "npm publish --access public"
+  },
+  "keywords": [
+    "icons"
+  ],
+  "author": "erdodo",
+  "license": "ISC"
+}
