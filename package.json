@@ -1,14 +1,20 @@
 {
   "name": "dodo-icons",
-  "version": "0.0.3",
+  "version": "0.1.27",
   "description": "Dodo ikonlar",
   "main": "icons/index.js",
   "scripts": {
-    "publish": "npm publish --access public"
+    "build:vue": "vue-cli-service build --target lib --name index src/Icon.vue && cp src/config.js vue/index.js",
+    "publish": "npm run build:vue &&  npm publish --access public && break"
   },
   "keywords": [
     "icons"
   ],
   "author": "erdodo",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@vue/cli-service": "^5.0.8",
+    "react": "^18.2.0",
+    "vue": "^3.2.47"
+  }
 }
