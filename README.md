@@ -26,6 +26,10 @@
 dodo-icons, React ve Vue.js gibi web teknolojilerinde kullanılmak üzere geliştirilmiş bir ikon paketidir. 
 Paket içinde birçok popüler ikon paketi yer almakta ve kullanıcılar istedikleri ikonu kolayca kullanabilmektedirler. 
 Bu dokümantasyonda, dodo-icons paketinin nasıl kurulacağı, kullanılacağı ve özelleştirilebileceği hakkında bilgi verilecektir.
+
+## Detaylı Döküman
+[Buradan Ulaşabilirsiniz.](https://dodo-style.vercel.app/?path=/docs/icons-d%C3%B6k%C3%BCman--docs)
+
 ## Kurulum
 dodo-icons, NPM üzerinden tüm paketi yüklenerek projeye dahil edilebilir.
 

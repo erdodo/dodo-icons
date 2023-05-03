@@ -1,6 +1,6 @@
 {
   "name": "dodo-icons",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "🦤 Dodo İkonlar - React ve Vue için SVG İkon Kütüphanesi",
   "main": "index.js",
   "scripts": {
