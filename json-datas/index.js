@@ -1,0 +1,24 @@
+import ai from './ai/ai.vue';
+import bi from './bi/Bi.vue';
+import bs from './bs/Icon.vue';
+/*import bs from './bs/Icon.vue';
+import cg from './cg/Icon.vue';
+import ci from './ci/Icon.vue';
+import di from './di/Icon.vue';
+import fa from './fa/Icon.vue';
+import fc from './fc/Icon.vue';
+import fi from './fi/Icon.vue';
+import gi from './gi/Icon.vue';
+import go from './go/Icon.vue';
+import hi from './hi/Icon.vue';
+import hi2 from './hi2/Icon.vue';
+import im from './im/Icon.vue';
+import io from './io/Icon.vue';
+import io5 from './io5/Icon.vue';
+import md from './md/Icon.vue';
+import ri from './ri/Icon.vue';
+import rx from './rx/Icon.vue';
+import si from './si/Icon.vue';
+import sl from './sl/Icon.vue';
+export { ai, bi, bs, cg, ci, di, fa, fc, fi, gi, go, hi, hi2, im, io, io5, md, ri, rx, si, sl };*/
+export { ai, bi,bs };

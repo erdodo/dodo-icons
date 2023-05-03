@@ -1,3 +1,4 @@
 module.exports ={
-    outputDir:  "./vue",
+    outputDir:  "./dist",
+
 }

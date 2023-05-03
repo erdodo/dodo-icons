@@ -1,20 +1,48 @@
 {
   "name": "dodo-icons",
-  "version": "0.1.27",
-  "description": "Dodo ikonlar",
-  "main": "icons/index.js",
+  "version": "0.1.53",
+  "description": "🦤 Dodo ikonlar",
+  "main": "index.js",
   "scripts": {
-    "build:vue": "vue-cli-service build --target lib --name index src/Icon.vue && cp src/config.js vue/index.js",
-    "publish": "npm run build:vue &&  npm publish --access public && break"
+    "1build:vue": "vue-cli-service build --target lib --name index json-datas/index && cp json-datas/config.js vue/index.js",
+    "build:vue": "vue-cli-service build --target lib --name index src/ai.vue",
+    "build": "rollup -c",
+    "publish": "npm publish --access public && npm stop"
   },
+  "author": {
+    "name": "Erdoğan Yeşil",
+    "email": "erdoganyesil3@gmail.com"
+  },
+  "repository": "https://github.com/erdodo/dodo-icons",
+  "bugs": "https://github.com/erdodo/dodo-icons/issues",
   "keywords": [
-    "icons"
+    "icons",
+    "vue icons",
+    "react icons",
+    "svg icons",
+    "svg",
+    "vue",
+    "react",
+    "dodo",
+    "dodo icons",
+    "dodo svg icons",
+    "dodo svg",
+    "dodo vue",
+    "dodo react",
+    "dodo vue icons",
+    "dodo react icons"
   ],
-  "author": "erdodo",
-  "license": "ISC",
-  "dependencies": {
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "^3.2.21"
+  },
+  "devDependencies": {
+    "@rollup/plugin-json": "^6.0.0",
     "@vue/cli-service": "^5.0.8",
     "react": "^18.2.0",
+    "rollup": "^3.21.3",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-vue": "^6.0.0",
     "vue": "^3.2.47"
   }
 }
