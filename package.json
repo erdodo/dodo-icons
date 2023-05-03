@@ -1,11 +1,9 @@
 {
   "name": "dodo-icons",
-  "version": "0.1.53",
-  "description": "🦤 Dodo ikonlar",
+  "version": "0.2.1",
+  "description": "🦤 Dodo İkonlar - React ve Vue için SVG İkon Kütüphanesi",
   "main": "index.js",
   "scripts": {
-    "1build:vue": "vue-cli-service build --target lib --name index json-datas/index && cp json-datas/config.js vue/index.js",
-    "build:vue": "vue-cli-service build --target lib --name index src/ai.vue",
     "build": "rollup -c",
     "publish": "npm publish --access public && npm stop"
   },

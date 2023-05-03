@@ -2,18 +2,53 @@
 
 
 # 🦤 Dodo İkonlar
+[git-image]: https://img.shields.io/github/followers/erdodo?style=social
+[git-url]: https://github.com/erdodo
+[repo-image]: https://img.shields.io/github/stars/erdodo/dodo-icons?style=social
+[repo-url]: https://github.com/erdodo/dodo-icons
+[![git][git-image]][git-url]  [![repo][repo-image]][repo-url]
 
 [npm-image]: https://img.shields.io/npm/v/dodo-icons
 [npm-url]: https://www.npmjs.com/package/dodo-icons
-
+[npm-image2]: https://img.shields.io/npm/dt/dodo-icons
+[npm-image3]: https://img.shields.io/github/issues/erdodo/dodo-icons
+[npm-image4]: https://img.shields.io/github/forks/erdodo/dodo-icons
+[npm-image5]: https://img.shields.io/github/stars/erdodo/dodo-icons
+[npm-image6]: https://img.shields.io/npm/l/dodo-icons
 [![npm][npm-image]][npm-url]
+[![npm][npm-image2]][npm-url]
+[![npm][npm-image3]][npm-url]
+[![npm][npm-image4]][npm-url]
+[![npm][npm-image5]][npm-url]
+[![npm][npm-image6]][npm-url]
 
 
+dodo-icons, React ve Vue.js gibi web teknolojilerinde kullanılmak üzere geliştirilmiş bir ikon paketidir. 
+Paket içinde birçok popüler ikon paketi yer almakta ve kullanıcılar istedikleri ikonu kolayca kullanabilmektedirler. 
+Bu dokümantasyonda, dodo-icons paketinin nasıl kurulacağı, kullanılacağı ve özelleştirilebileceği hakkında bilgi verilecektir.
+## Kurulum
+dodo-icons, NPM üzerinden tüm paketi yüklenerek projeye dahil edilebilir.
 
-## Örnek Kullanım
+```bash
+npm install dodo-icons
+```
+- Eğer sadece React için kullanmak istiyorsanız
+```bash
+  npm install dodo-icons@0.2.0-react
+```
+- Eğer sadece Vue için kullanmak istiyorsanız
+```bash
+  npm install dodo-icons@0.2.0-vue
+```
+
+## Örnek Kullanım (React)
+dodo-icons, kullanılacak ikon paketi için özel olarak oluşturulmuş modüller içermektedir. 
+İstenilen modül, projede kullanılacak dosyaya import edilerek kullanılabilir. 
+Örneğin, Font Awesome 5 ikon paketinden bir ikon kullanmak isteniyorsa, şu şekilde bir import işlemi gerçekleştirilebilir:
+
 
 ```jsx
-import { FaBeer } from "dodo-icons/fa";
+import { FaBeer } from "dodo-icons/react/fa";
 
 function Ikonlar() {
   return (
@@ -34,8 +69,24 @@ function Ikonlar() {
   );
 }
 ```
+## Örnek Kullanım (Vue)
 
-## Ayarlar
+```vue
+<template>
+    <Icons icon="WiAlien" color="" style="" class=""/>
+</template>
+<script>
+    import Icons from 'dodo-icons/vue/wi/'
+    export default {
+        components: {
+            Icons
+        }
+    }
+</script>
+
+```
+
+## Ayarlar (React)
 
 
 _Zorunluluk: **React 16.3** yada üstü._
@@ -92,4 +143,4 @@ import { IconContext } from "dodo-icons";
     </a>
 </div>
 
-İkonlar için [React Icons](https://react-icons.github.io/react-icons/) kullanılmıştır.
+

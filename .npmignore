@@ -3,3 +3,5 @@ json-datas
 vue.config.js
 node_modules
 rollup.config.js
+.idea
+
